@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE quiz>
 <quiz>
+<!--  This is the root element that has the other elements within it  -->
     <!--  Item 01  -->
     <question type="multichoice">
         <name>
             <text>
                 Markup languages are used to:
             </text>
+<!--  Contains the text associated with the name or question  -->
         </name>
+<!--  Label for the name of the question  -->
         <questiontext>
+<!--  It is to define the question in the test  -->
             <text>
                 Markup languages are used to:
             </text>
         </questiontext>
         <defaultgrade>1.0000000</defaultgrade>
+<!--  Sets the default score for the question  -->
         <penalty>0.3333333</penalty>
+<!--  Impose the penalty for incorrect answers  -->
         <hidden>0</hidden>
         <single>true</single>
+<!--  this tag indicates whether the question is a single option  -->
         <shuffleanswers>false</shuffleanswers>
+<!--  Indicates whether the answers should be mixed  -->
         <answernumbering>abc</answernumbering>
+<!--  Defines the response numbering scheme  -->
         <answer fraction="0">
             <text>
                     Format text documents.
             </text>
         </answer>
+<!--  Defines an answer option with correct answer attribute  -->
         <answer fraction="0">
             <text>
                     Define the data structure of a document.
@@ -98,6 +108,7 @@
         <shuffleanswers>false</shuffleanswers>
         <answernumbering>abc</answernumbering>
         <answer fraction="100">
+<!--  Indicates the fraction of points assigned to the answer  -->
             <text>
                 Attributes.
             </text>
