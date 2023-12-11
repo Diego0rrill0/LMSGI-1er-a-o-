@@ -1,1 +1,121 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE quiz>
+<quiz>
+    <!--  Item 01  -->
+    <question type="multichoice">
+        <name>
+            <text>
+                Markup languages are used to:
+            </text>
+        </name>
+        <questiontext>
+            <text>
+                Markup languages are used to:
+            </text>
+        </questiontext>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>false</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <answer fraction="0">
+            <text>
+                    Format text documents.
+            </text>
+        </answer>
+        <answer fraction="0">
+            <text>
+                    Define the data structure of a document.
+            </text>
+        </answer>
+        <answer fraction="0">
+            <text>
+                    Allow the exchange of files between different applications and platforms.
+            </text>
+        </answer>
+        <answer fraction="100">
+            <text>
+                All of them.
+            </text>
+        </answer>
+    </question>
+    <!--  Item 02 -->
+    <question type="multichoice">
+        <name>
+            <text>
+                Of the following statements, which is a common feature of XML and SGML?
+            </text>
+        </name>
+        <questiontext>
+            <text>
+                Of the following statements, which is a common feature of XML and SGML?
+            </text>
+        </questiontext>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>false</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <answer fraction="0">
+            <text>
+                They save the formatting of a document.
+            </text>
+        </answer>
+        <answer fraction="100">
+            <text>
+                They keep the logical structure of the documents.
+            </text>
+        </answer>
+        <answer fraction="0">
+            <text>
+                Save documents in the universal txt format.
+            </text>
+        </answer>
+        <answer fraction="0">
+            <text>
+                They save the format of the documents regardless of the platform.
+            </text>
+        </answer>
+    </question>
+    <!--  Item 03 -->
+    <question type="multichoice">
+        <name>
+            <text>
+                To add properties to an "element", we use:
+            </text>
+        </name>
+        <questiontext>
+            <text>
+                To add properties to an "element", we use:
+            </text>
+        </questiontext>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <single>true</single>
+        <shuffleanswers>false</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <answer fraction="100">
+            <text>
+                Attributes.
+            </text>
+        </answer>
+        <answer fraction="0">
+            <text>
+                Copies.
+            </text>
+        </answer>
+        <answer fraction="0">
+            <text>
+                Prologues.
+            </text>
+        </answer>
+        <answer fraction="0">
+            <text>
+                None, as it is not possible to add properties to an element.
+            </text>
+        </answer>
+    </question>
+</quiz>
