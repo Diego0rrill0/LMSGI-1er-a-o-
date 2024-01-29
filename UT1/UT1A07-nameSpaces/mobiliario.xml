@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE mobiliario>
+<mobiliario>
+    <muebles>
+        <mesa identificador="ME01" stock="5" largo="119 cm" ancho="80 cm" alto="78 cm"/>
+        <mesa identificador="ME02" stock="5" largo="114 cm" ancho="70 cm" alto="83 cm"/>
+        <mesa identificador="ME03" stock="5" largo="120 cm" ancho="90 cm" alto="81 cm"/>
+        <mesa identificador="ME04" stock="5" largo="90 cm" ancho="75 cm" alto="85 cm"/>
+        <mesa identificador="ME05" stock="5" largo="135 cm" ancho="85 cm" alto="79 cm"/>
+        <armario identificador="AR01" stock="3" largo="150 cm" ancho="60 cm" alto="221 cm"/>
+        <armario identificador="AR02" stock="3" largo="180 cm" ancho="87 cm" alto="210 cm"/>
+        <armario identificador="AR03" stock="3" largo="160 cm" ancho="124 cm" alto="105 cm"/>
+        <silla identificador="SI01" stock="2" largo="40 cm" ancho="42 cm" alto="73 cm"/>
+        <silla identificador="SI02" stock="2" largo="35 cm" ancho="41 cm" alto="70 cm"/>
+        <cama identificador="CA01" stock="2" largo="224 cm" ancho="170 cm" alto="30 cm"/>
+        <cama identificador="CA02" stock="2" largo="180 cm" ancho="170 cm" alto="30 cm"/>
+</muebles>
+</mobiliario>
