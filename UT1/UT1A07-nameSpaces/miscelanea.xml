@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE miscelanea>
+<miscelanea xmlns:ele="https://www.elecciones/cantabria.es"
+        xmlns:mob="https://www.ikea/mobiliario.es">
+    <ele:elecciones>
+        <ele:info_elecciones fecha="2024-01-8" num_colegios="2" num_posibles_votantes="1000"/>
+        <ele:elecciones nombre="IES ALISAL" num_mesas="4" posibles_votantes_mesa="500"> 
+            <ele:mesa num="1">
+                <ele:presidente nombre="Ryan" apellido1="Laff"/>
+                <ele:vocal1 nombre="Tony" apellido1="Glenn"/>
+                <ele:vocal2 nombre="Carly" apellido1="Sax"/>
+            </ele:mesa>
+            <ele:mesa num="2">
+                <ele:presidente nombre="Anne" apellido1="Thought"/>
+                <ele:vocal1 nombre="Seann" apellido1="Whisper"/>
+                <ele:vocal2 nombre="Borys" apellido1="Marques"/>
+            </ele:mesa>
+            <ele:mesa num="3">
+                <ele:presidente nombre="Ed" apellido1="Johannes"/>
+                <ele:vocal1 nombre="Leo" apellido1="Ramos"/>
+                <ele:vocal2 nombre="Patty" apellido1="Pina"/>
+            </ele:mesa>
+            <ele:mesa num="4">
+                <ele:presidente nombre="Borja" apellido1="Perez"/>
+                <ele:vocal1 nombre="Vicky" apellido1="Loreto"/>
+                <ele:vocal2 nombre="Maria" apellido1="Nieves"/>
+            </ele:mesa>
+        </ele:elecciones>
+        <ele:colegio nombre="IES Cantabria" num_mesas="4" num_posibles_votantes_mesa="500">
+                <ele:mesa num="1">
+                    <ele:presidente nombre="Josh" apellido1="Patrick"/>
+                    <ele:vocal1 nombre="Robb" apellido1="Martin"/>
+                    <ele:vocal2 nombre="Andres" apellido1="Gil"/>
+                </ele:mesa>
+                <ele:mesa num="2">
+                    <ele:presidente nombre="Gisel" apellido1="Ferreo"/>
+                    <ele:vocal1 nombre="Valeria" apellido1="Vidal"/>
+                    <ele:vocal2 nombre="Piera" apellido1="Acosta"/>
+                </ele:mesa>
+                <ele:mesa num="3">
+                    <ele:presidente nombre="Sahory" apellido1="Moreno"/>
+                    <ele:vocal1 nombre="Javier" apellido1="Palm"/>
+                    <ele:vocal2 nombre="Grecia" apellido1="Noguera"/>
+                </ele:mesa>
+                <ele:mesa num="4">
+                    <ele:presidente nombre="Isabela" apellido1="Martínez"/>
+                    <ele:vocal1 nombre="Loreins" apellido1="Delgadillo"/>
+                    <ele:vocal2 nombre="Victoria" apellido1="Losa"/>
+              </ele:mesa>
+        </ele:colegio>
+    </ele:elecciones>
+    <:mob:mobiliario>
+        <mob:muebles>
+            <mob:mesa identificador="ME01" stock="5" largo="119 cm" ancho="80 cm" alto="78 cm"/>
+            <mob:mesa identificador="ME02" stock="5" largo="114 cm" ancho="70 cm" alto="83 cm"/>
+            <mob:mesa identificador="ME03" stock="5" largo="120 cm" ancho="90 cm" alto="81 cm"/>
+            <mob:mesa identificador="ME04" stock="5" largo="90 cm" ancho="75 cm" alto="85 cm"/>
+            <mob:mesa identificador="ME05" stock="5" largo="135 cm" ancho="85 cm" alto="79 cm"/>
+            <mob:armario identificador="AR01" stock="3" largo="150 cm" ancho="60 cm" alto="221 cm"/>
+            <mob:armario identificador="AR02" stock="3" largo="180 cm" ancho="87 cm" alto="210 cm"/>
+            <mob:armario identificador="AR03" stock="3" largo="160 cm" ancho="124 cm" alto="105 cm"/>
+            <mob:silla identificador="SI01" stock="2" largo="40 cm" ancho="42 cm" alto="73 cm"/>
+            <mob:silla identificador="SI02" stock="2" largo="35 cm" ancho="41 cm" alto="70 cm"/>
+            <mob:cama identificador="CA01" stock="2" largo="224 cm" ancho="170 cm" alto="30 cm"/>
+            <mob:cama identificador="CA02" stock="2" largo="180 cm" ancho="170 cm" alto="30 cm"/>
+        </mob:muebles>
+    </:mob:mobiliario>
+</miscelanea>
