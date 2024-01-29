@@ -64,5 +64,5 @@
             <mob:cama identificador="CA01" stock="2" largo="224 cm" ancho="170 cm" alto="30 cm"/>
             <mob:cama identificador="CA02" stock="2" largo="180 cm" ancho="170 cm" alto="30 cm"/>
         </mob:muebles>
-    </:mob:mobiliario>
+    </mob:mobiliario>
 </miscelanea>
