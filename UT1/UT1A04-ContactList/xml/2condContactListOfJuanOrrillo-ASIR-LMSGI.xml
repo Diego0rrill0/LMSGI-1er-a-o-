@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE contacts_list>
+    <contact>
+        <name>Diana</name>
+        <surname>Salazar</surname>
+        <phone>
+            <personal>+348812875599</personal>
+            <work>8823670921</work>
+        </phone>
+        <pronoun>she/her</pronoun>
+        <birthday>28-02-1995</birthday>
+        <email>dianaslzc2@gmail.com</email>
+        <social_media>
+            <twitter>https:/twitter.com/dianne28</twitter>
+            <facebook>https://facebook.com/dia.na.na</facebook>
+        </social_media>
+        <adress>
+        <country>Spain</country>
+        <province>Cantabria</province>
+        <city>Santander</city>
+        <zip></zip>
+        </adress>
+    </contact>

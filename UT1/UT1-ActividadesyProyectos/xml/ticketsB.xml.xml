@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Tickets>
+<ticket>
+    <informacion_de_la_empresa>
+        <nombre></nombre>
+        <cif>A28425270</cif>
+        <contacto>
+            <telefono>916310758</telefono>
+            <correo>carre4@gmail.com</correo>
+        </contacto> 
+        <numeroiri>28/121464</numeroiri>
+    </informacion_de_la_empresa>
+    <factura_simple>8986987</factura_simple>
+    <fecha_hora>2023-01-15T16:13:00</fecha_hora>
+    <productos>
+        <producto>
+            <tipo>10 EURO-SUPER</tipo>
+            <cantidad>39.12</cantidad>
+            <precio_unitario unit="litro" moneda="EUR">1.649</precio_unitario>
+            <importe>64.51</importe>
+        </producto>   
+         <producto>
+            <tipo>Chicles de fresa</tipo>
+            <cantidad>1</cantidad>
+            <precio_unitario moneda="EUR">1</precio_unitario>
+            <impuestos>
+                <impuesto tipo="IVA" tasa="0.21%">1.21</impuesto>
+            </impuestos>
+            <importe>1.21</importe>
+        </producto>
+    </productos>
+<total>65.72</total>
+</ticket>

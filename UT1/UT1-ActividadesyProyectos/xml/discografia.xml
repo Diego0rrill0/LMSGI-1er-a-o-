@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Grupos_de_musica>
+    <banda>
+        <nombre>Metallica</nombre>
+        <genero>Trash Metal</genero>
+        <integrantes>
+            <integrante>
+                <rol>Cantante y Guitarra</rol>
+                <nombre>James Hetfield</nombre>
+            </integrante>
+            <integrante>
+                <rol>Bateria</rol>
+                <nombre>Lars Ulrich</nombre>
+            </integrante>
+            <integrante>
+                <rol>Bajo</rol>
+                <nombre>Robert Trujillo</nombre>
+            </integrante>
+            <integrante>
+                <rol>Guitarra</rol>
+                <nombre>Kirk Hammet</nombre>
+            </integrante>
+        </integrantes>
+        <discos>
+            <nombre>Kill'Em All</nombre>
+            <nombre>Ride The Lightning</nombre>
+            <nombre>Master of Puppets</nombre>
+            <nombre>Metallica</nombre>  
+        </discos>
+    </banda>

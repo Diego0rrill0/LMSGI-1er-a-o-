@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE recipes>
+<recipes>
+    <recipe id="01" name="Macarrones Bolonesa">
+         <!--Cabe recalcar que estoy consciente de 
+            que escribí bolonesa mal a proposito y la 
+            unica manera que reconozca las tildes y la otra letra es colocando
+            <?xml version="1.0" encoding="ISO-8859-1"?>en el encabezado del xml-->
+            <portions>4 persons</portions>
+            <preparation_time unity="minutes">35</preparation_time>
+            <ingredients>
+                <ingredient quant="1" unity="Kg." name="cebollas"/>
+                <ingredient quant="2" unity="l." name="caldo de carne"/>
+                <ingredient quant="100" unity="gr." name="mantequilla"/>
+                <ingredient quant="1" name="pizca de sal"/>
+                <ingredient quant="100" unity="gr." name="queso mozzarella"/>
+                <ingredient quant="1" unity="Kg." name="carne picada"/>
+                <ingredient quant="2" unity="Kg." name="tomates"/>
+            </ingredients>
+            <method>
+                <step>Pelar y partir las cebollas en rodajas finas.</step>
+                <step>Rehogarlas con la mantequilla y sal a fuego lento hasta que estén transparentes sin dorarse.</step>
+                <step>Añadir la carne picada sin dejar de remover.</step>
+                <step>Cuando la carne esté hecha, añadir los tomates pelados y sin pepitas. Cocinar a fuego lento durante unos 8 minutos.</step>
+                <step>Espolvorear el queso mozzarella rallado y gratinar en el horno hasta que esté dorado.</step>
+            </method>
+    </recipe>
+</recipes>
