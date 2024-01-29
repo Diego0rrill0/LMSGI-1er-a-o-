@@ -1,1 +1,49 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE elecciones>
+<elecciones>
+    <info_elecciones fecha="2024-01-8" num_colegios="2" num_posibles_votantes="1000"></info_elecciones>
+    <colegio nombre="IES ALISAL" num_mesas="4" posibles_votantes_mesa="500"> 
+        <mesa num="1">
+            <presidente nombre="Ryan" apellido1="Laff"/>
+            <vocal1 nombre="Tony" apellido1="Glenn"/>
+            <vocal2 nombre="Carly" apellido1="Sax"/>
+        </mesa>
+        <mesa num="2">
+            <presidente nombre="Anne" apellido1="Thought"/>
+            <vocal1 nombre="Seann" apellido1="Whisper"/>
+            <vocal2 nombre="Borys" apellido1="Marques"/>
+        </mesa>
+        <mesa num="3">
+            <presidente nombre="Ed" apellido1="Johannes"/>
+            <vocal1 nombre="Leo" apellido1="Ramos"/>
+            <vocal2 nombre="Patty" apellido1="Pina"/>
+        </mesa>
+        <mesa num="4">
+            <presidente nombre="Borja" apellido1="Perez"/>
+            <vocal1 nombre="Vicky" apellido1="Loreto"/>
+            <vocal2 nombre="Maria" apellido1="Nieves"/>
+        </mesa>
+   </colegio>
+   <colegio nombre="IES Cantabria" num_mesas="4" num_posibles_votantes_mesa="500">
+        <mesa num="1">
+            <presidente nombre="Josh" apellido1="Patrick"/>
+            <vocal1 nombre="Robb" apellido1="Martin"/>
+            <vocal2 nombre="Andres" apellido1="Gil"/>
+        </mesa>
+        <mesa num="2">
+            <presidente nombre="Gisel" apellido1="Ferreo"/>
+            <vocal1 nombre="Valeria" apellido1="Vidal"/>
+            <vocal2 nombre="Piera" apellido1="Acosta"/>
+        </mesa>
+        <mesa num="3">
+            <presidente nombre="Sahory" apellido1="Moreno"/>
+            <vocal1 nombre="Javier" apellido1="Palm"/>
+            <vocal2 nombre="Grecia" apellido1="Noguera"/>
+        </mesa>
+        <mesa num="4">
+            <presidente nombre="Isabela" apellido1="Martínez"/>
+            <vocal1 nombre="Loreins" apellido1="Delgadillo"/>
+            <vocal2 nombre="Victoria" apellido1="Losa"/>
+        </mesa>
+  </colegio>
+</elecciones>
