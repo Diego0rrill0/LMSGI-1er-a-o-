@@ -49,7 +49,7 @@
               </ele:mesa>
         </ele:colegio>
     </ele:elecciones>
-    <:mob:mobiliario>
+    <mob:mobiliario>
         <mob:muebles>
             <mob:mesa identificador="ME01" stock="5" largo="119 cm" ancho="80 cm" alto="78 cm"/>
             <mob:mesa identificador="ME02" stock="5" largo="114 cm" ancho="70 cm" alto="83 cm"/>
@@ -64,5 +64,5 @@
             <mob:cama identificador="CA01" stock="2" largo="224 cm" ancho="170 cm" alto="30 cm"/>
             <mob:cama identificador="CA02" stock="2" largo="180 cm" ancho="170 cm" alto="30 cm"/>
         </mob:muebles>
-    </:mob:mobiliario>
+    </mob:mobiliario>
 </miscelanea>
