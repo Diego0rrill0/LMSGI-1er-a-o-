@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+    <informacion_empresa>
+        <nombre>Supermercado Ejemplo</nombre>
+        <direccion>
+            <calle>Calle Principal</calle>
+            <numero>123</numero>
+            <ciudad>Ciudad Ejemplo</ciudad>
+            <codigo_postal>12345</codigo_postal>
+        </direccion>
+        <contacto>
+            <telefono>555-1234</telefono>
+            <correo>info@supermercadoejemplo.com</correo>
+        </contacto>
+    </informacion_empresa>
+    <cliente>
+        <nombre>Juan Pérez</nombre>
+        <identificacion>
+            <tipo>DNI</tipo>
+            <numero>12345678A</numero>
+        </identificacion>
+        <direccion>
+            <calle>Calle Secundaria</calle>
+            <numero>456</numero>
+            <ciudad>Ciudad Cliente</ciudad>
+            <codigo_postal>54321</codigo_postal>
+        </direccion>
+        <contacto>
+            <telefono>555-5678</telefono>
+            <correo>juan.perez@email.com</correo>
+        </contacto>
+    </cliente>
+    <productos>
+        <producto>
+            <codigo>001</codigo>
+            <nombre>Producto 1</nombre>
+            <descripcion>Descripción detallada del Producto 1.</descripcion>
+            <precio unitario="10.00" moneda="USD">10.00 USD</precio>
+            <cantidad>2</cantidad>
+            <descuento>1.50</descuento>
+            <subtotal>18.50</subtotal>
+        </producto>
+        <producto>
+            <codigo>002</codigo>
+            <nombre>Producto 2</nombre>
+            <descripcion>Descripción detallada del Producto 2.</descripcion>
+            <precio unitario="5.50" moneda="USD">5.50 USD</precio>
+            <cantidad>3</cantidad>
+            <descuento>0.75</descuento>
+            <subtotal>15.75</subtotal>
+        </producto>
+    </productos>
+    <total>
+        <subtotal>34.25</subtotal>
+        <impuestos>
+            <impuesto tipo="IVA" tasa="10%">3.43</impuesto>
+        </impuestos>
+        <descuentos>
+            <descuento_general>2.00</descuento_general>
+        </descuentos>
+        <total_final>35.68</total_final>
+    </total>
+    <fecha>2023-11-13T15:30:00</fecha>
+</ticket>

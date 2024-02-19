@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE contacts_list>
+<contacts_list>
+    <contact>
+        <surname>Edwards</surname>
+        <name>Mark</name>
+        <assignment>mechanic</assignment>
+        <number>624749728</number>
+    </contact>
+    <contact>
+        <surname>Johannes</surname>
+        <name>Donnie</name>
+        <assignment>Manager</assignment>
+        <number>628982312</number>
+    </contact>
+    <contact>
+        <surname>Pitters</surname>
+        <name>Jhon</name>
+        <assignment>Engineer</assignment>
+        <number>755919351</number>
+    </contact>
+    <contact>
+        <surname>Lino</surname>
+        <name>Vicky</name>
+        <assignment>Designer</assignment>
+        <number>644991255</number>
+    </contact>
+    <contact>
+        <surname>Roma</surname>
+        <name>Dianne</name>
+        <assignment>Developer</assignment>
+        <number>783129912</number>
+    </contact>    
+</contacts_list>

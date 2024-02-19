@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE phone_directory>
+<phone_directory>
+    <person id="1">
+        <name>
+            <surname>Nieves</surname>
+            <secondName>Pablo</secondName>
+            <firstName>Juan</firstName>
+        </name>
+        <address country="Spain" province="Cantabria" city="Santander" zip="39012"/>
+        <phones>
+            <phone type="work">+349923342493</phone>
+            <phone type="personal">+349965796812</phone>
+            <phone type="home">+34942123456</phone>
+        </phones>
+        <!--i just put things necessaries-->
+    </person>
+</phone_directory>
