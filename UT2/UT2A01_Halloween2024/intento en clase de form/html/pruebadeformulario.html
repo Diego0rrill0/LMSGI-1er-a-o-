@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reserva</title>
-    <link rel="stylesheet" href="cssdeformprueba.css">
+    <link rel="stylesheet" href="../css/cssdeformprueba.css">
 </head>
 <body class="imagenfondo">
     <a href="https://cursos.iesalisal.es/" target="_blank" class="logo-link">
@@ -12,7 +12,7 @@
     </a>
 
     <form>
-        <!-- Datos Personales -->
+
         <fieldset>
             <legend>Datos Personales</legend>
 
@@ -56,25 +56,29 @@
                     <label for="actividad">Actividad a realizar:</label>
                     <select id="actividad" name="actividad" required>
                         <option value="DecoracionTematica">Decoración temática del centro</option>
+                        <option value="Taller de maquillaje de Halloween">Taller de maquillaje de Halloween</option>
+                        <option value="Taller de teatro de halloween">Taller de teatro de halloween</option>
+                        <option value="Excursión tenebrosa al faro">Excursión tenebrosa al faro</option>
+                        <option value="Playlist temática en zonas comúnes">Playlist temática en zonas comúnes</option>
                     </select>
                 </li>
             </ul>
         </fieldset>
         <fieldset>
             <legend>Preferencias</legend>
-
             <ul>
                 <li>
                     <label for="idioma">Idioma del monitor:</label>
                     <select id="idioma" name="idioma" enabled>
-                        <!-- Opciones de idioma... -->
+                        <option value="Español">Español</option>
+                        <option value="Inglés">Inglés</option>
+                        <option value="Portugués">Portugués</option>
+                        <option value="Francés">Francés</option>
                     </select>
                 </li>
-
                 <li>
                     <button type="button" id="auricularesBtn">Necesita auriculares</button>
-                    <div class="auriculares-options">
-                    </div>
+                    <div class="auriculares-options"></div>
                 </li>
 
                 <li>

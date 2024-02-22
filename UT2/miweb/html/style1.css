@@ -1,0 +1,16 @@
+*
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: block;
+}
+.imgTxt{
+    display: flex;
+}
+.imagen{
+    width: 50%;
+}
+.textoLateral{
+    width: 50%;
+}
