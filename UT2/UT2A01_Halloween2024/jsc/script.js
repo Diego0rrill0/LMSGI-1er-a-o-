@@ -13,3 +13,11 @@ function updateProgressBar() {
 
     progressText.textContent = numPersonas;
 }
+document.addEventListener('DOMContentLoaded', function() {
+    var inputsNumero = document.querySelectorAll('.input-numero');
+    inputsNumero.forEach(function(input) {
+        input.addEventListener('input', function() {
+            this.value = this.value.replace(/\D/g, '');
+        });
+    });
+});
