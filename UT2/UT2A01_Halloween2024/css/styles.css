@@ -144,7 +144,7 @@ section video
 .sci {
     position: absolute;
     z-index: 10;
-    bottom: 45px; /* Ajusta este valor según sea necesario */
+    bottom: 45px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +203,7 @@ iframe {
     bottom: 60px;
     left: 30px;
     width: 350px;
-    height: 250px; 
+    height: 200px; 
     z-index: 100;
 }
 footer {
