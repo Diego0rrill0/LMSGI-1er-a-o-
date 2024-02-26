@@ -1,1 +1,0 @@
-falta poner rutas relativas, ajustar texto e imagenes, sólo es una prueba para no perder el html ni el css hecho en clase
