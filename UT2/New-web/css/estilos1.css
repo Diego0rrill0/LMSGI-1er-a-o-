@@ -3,11 +3,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
 }
-#container{
-    width: 1100px;
-    margin: 0px auto;
-    border: 1px solid black;
-}
 header{
     background: grey;
     height: 100px;
@@ -18,50 +13,55 @@ header{
     color: white;
     border-bottom: 3px dashed black;
 }
-nav{
-    background: lightblue;
-    height: 50px;
-    border-bottom: 1px solid black;
-
+main{
+    display:flex;
 }
-nav ul li{
-    float: right;
-    list-style: none;
-    margin: 10px;
-}
-.clearfix{
-    clear: both;
-}
-#content{
+nav {
     float: left;
-    width: 80%;
+    width: 10%;
+    background: lightblue;
+    min-height: 500px;
+    align-items: center;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li {
+    text-align: center;
+}
+#cont1{
+    display: block;
+    width: 90%;
     min-height: 500px;
     background: green;
+    margin: 2px;
+    padding: 3px;
 }
-aside{
-    float: left;
-    width: 20%;
-    background: orange;
-    min-height: 500px;
-
+#artcont{
+    display: flex;
+    
+    background: blueviolet;
+    margin: 2px;
+    padding: 3px;
+}
+.art{
+    width: 30%;
+    border: 1px solid black;
+    margin: 2px;
+    text-align: center;
+    
+    background: red;
+    margin: 2px;
+    padding: 3px;
 }
 footer{
-    background: black;
-    color: white;
     text-align: center;
-    height: 50px;
-    line-height: 50px;
-}
-.cuadrado{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background: #aaa;
-    margin-bottom: 20px;
-    display: inline-block;
+    background-color: black;
 }
 
 
-    
+
 
 
