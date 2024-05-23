@@ -1,0 +1,9 @@
+<!ELEMENT catalogo (libro+)>
+    <!ELEMENT libro (titulo, isbn, autor+, paginas?, editorial)>
+    <!ATTLIST libro puntos (1 | 2 | 3) "1">
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT isbn (#PCDATA)>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT paginas (#PCDATA)>
+        <!ELEMENT editorial (#PCDATA)>
+        

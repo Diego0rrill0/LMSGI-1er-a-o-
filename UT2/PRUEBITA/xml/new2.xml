@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="blog">
+        <xs:complexType>
+        <xs:sequence>
+            <xs:element name="articulo">
+            <xs:complexType>
+                <xs:element name="articulo" minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="referencias" type="xs:"/>
+                <xs:element name="titulo" type="xs:"/>
+                <xs:element name="fecha" type="xs:"/>
+                <xs:element name="publicado" type="xs:"/>
+                <xs:element name="clasificacion" type="xs:"/>
+                </xs:element>
+            </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        </xs:complexType>      
+    </xs:element>
+</xs:schema>

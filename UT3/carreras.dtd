@@ -1,0 +1,13 @@
+<!ELEMENT formula1 (race+)>
+<!ELEMENT race (name, date, podium)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT date (day, month, year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT podium (order+)>
+<!ELEMENT order EMPTY>
+<!ATTLIST formula1 anio CDATA #REQUIRED>
+<!ATTLIST order n (1 | 2 | 3) #REQUIRED>
+<!ATTLIST order name CDATA #REQUIRED>
+<!ATTLIST order team CDATA #IMPLIED>

@@ -1,0 +1,45 @@
+<actividades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="gym.xsd">
+  <actividad anio="2015" level="adults" code="A01" intensity="soft">
+    <start_date>2015-01-15</start_date>
+    <sesions>
+      <duration_session>45</duration_session>
+      <week_frecuency>3</week_frecuency>
+    </sesions>
+  </actividad>
+  <actividad anio="2015" level="child" code="A02" intensity="moderate">
+    <start_date>2015-01-08</start_date>
+    <sesions>
+      <duration_session>45</duration_session>
+      <week_frecuency>3</week_frecuency>
+    </sesions>
+  </actividad>
+  <actividad anio="2015" level="adults" code="A03" intensity="hard">
+    <start_date>2015-01-15</start_date>
+    <sesions>
+      <duration_session>60</duration_session>
+      <week_frecuency>2</week_frecuency>
+    </sesions>
+  </actividad>
+  <actividad anio="2015" level="adults" code="A04" intensity="soft">
+    <start_date>2015-01-15</start_date>
+    <sesions>
+      <duration_session>45</duration_session>
+      <week_frecuency>2</week_frecuency>
+    </sesions>
+  </actividad>
+  <actividad anio="2015" level="adults" code="A05" intensity="soft">
+    <start_date>2015-01-15</start_date>
+    <sesions>
+      <duration_session>45</duration_session>
+      <week_frecuency>2</week_frecuency>
+    </sesions>
+  </actividad>
+  <actividad anio="2015" level="adults" code="A06" intensity="soft">
+    <start_date>2015-02-15</start_date>
+    <sesions>
+      <duration_session>45</duration_session>
+      <week_frecuency>2</week_frecuency>
+    </sesions>
+  </actividad>
+</actividades>

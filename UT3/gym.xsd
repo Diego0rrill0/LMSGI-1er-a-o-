@@ -1,0 +1,50 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="actividades">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="actividad" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="start_date" type="xs:date"/>
+              <xs:element name="sesions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="duration_session" type="xs:positiveInteger"/>
+                    <xs:element name="week_frecuency" type="xs:positiveInteger"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="anio" type="xs:gYear" use="required"/>
+            <xs:attribute name="level">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="child"/>
+                  <xs:enumeration value="adults"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="code">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="A\d{2}"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="intensity">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="soft"/>
+                  <xs:enumeration value="moderate"/>
+                  <xs:enumeration value="hard"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

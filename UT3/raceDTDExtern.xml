@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formula1 SYSTEM "carreras.dtd">
+<formula1 anio="2011">
+    <race>
+        <name>Monaco GP</name>
+        <date>
+            <day>29</day>
+            <month>mayo</month>
+            <year>2011</year>
+        </date>
+        <podium>
+            <order n="1" name="Sebastian Vettel" team="Red Bull"/>
+            <order n="2" name="Fernando Alonso"/>
+            <order n="3" name="Jenson Button"/>
+        </podium>
+    </race>
+</formula1>

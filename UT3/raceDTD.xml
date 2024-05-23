@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formula1 [
+<!ELEMENT formula1 (race+)>
+<!ELEMENT race (name, date, podium)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT date (day, month, year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT podium (order+)>
+<!ELEMENT order EMPTY>
+<!ATTLIST formula1 anio CDATA #REQUIRED>
+<!ATTLIST order n (1 | 2 | 3) #REQUIRED>
+<!ATTLIST order name CDATA #REQUIRED>
+<!ATTLIST order team CDATA #IMPLIED>
+]>
+<formula1 anio="2011">
+    <race>
+        <name>Monaco GP</name>
+        <date>
+            <day>29</day>
+            <month>mayo</month>
+            <year>2011</year>
+        </date>
+        <podium>
+            <order n="1" name="Sebastian Vettel" team="Red Bull"/>
+            <order n="2" name="Fernando Alonso"/>
+            <order n="3" name="Jenson Button"/>
+        </podium>
+    </race>
+</formula1>

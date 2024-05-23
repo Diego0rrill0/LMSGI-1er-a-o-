@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE catalogo SYSTEM "catal.dtd">
+<catalogo>
+    <libro puntos="1">
+        <titulo>Codigo Da Vinci</titulo>
+        <isbn>92343290</isbn>
+        <autor>Dan Brown</autor>
+        <paginas>656</paginas>
+        <editorial>Planeta, S.A</editorial>
+    </libro>
+    <libro puntos="2">
+        <titulo>El guardian entre el centeno</titulo>
+        <isbn>9788420674209</isbn>
+        <autor>J.d. Salinger</autor>
+        <paginas>272</paginas>
+        <editorial>Alianza Editorial</editorial>
+    </libro>
+</catalogo>
