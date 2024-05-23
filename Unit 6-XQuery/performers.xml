@@ -1,0 +1,29 @@
+<performers>
+    <performer cod="101">
+        <name>Juan Diego Boto</name>
+        <birthday>1975</bithday>
+        <deathday/>
+        <country>Argentina</country>
+        <info>https://en.wikipedia.org/wiki/Juan_Diego_Botto</info>
+    </performer>
+    <performer cod="102">
+        <name>Hugo Silva</name>
+        <birthday>1977</bithday>
+        <country>Spain</country>
+        <info>https://en.wikipedia.org/wiki/Hugo_Silva_(actor)</info>
+    </performer>
+    <performer cod="103">
+        <name>Angelina Jolie</name>
+        <birthday>1975</bithday>
+        <deathday/>
+        <country>EEUU</country>
+        <info>https://en.wikipedia.org/wiki/Angelina_Jolie</info>
+    </performer>
+    <performer cod="104">
+        <name>Kristen Jaymes Stewart</name>
+        <birthday>1990</bithday>
+        <deathday/>
+        <country>EEUU</country>
+        <info>https://en.wikipedia.org/wiki/Kristen_Stewart</info>
+    </performer>
+</performers>

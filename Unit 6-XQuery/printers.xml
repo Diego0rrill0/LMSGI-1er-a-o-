@@ -1,0 +1,33 @@
+<printers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <printer numSerie="i245" type="laser" purchaseDate="2010">
+        <brand>Epson</brand>
+        <model>EPL300</model>
+        <weight>4.52</weight>
+        <paper>A4</paper>
+        <paper>A5</paper>
+        <cartridge>C-123BV</cartridge>
+        <enred/>
+    </printer>
+    <printer numSerie="i246" type="matrix">
+        <brand>HP</brand>
+        <model>LaserJet 2410</model>
+        <weight>3.2</weight>
+        <paper>A4</paper>
+        <cartridge>C-456P</cartridge>
+    </printer>
+    <printer numSerie="i247" type="matrix">
+        <brand>HP</brand>
+        <model>LaserJet 2420</model>
+        <weight>3.2</weight>
+        <paper>A4</paper>
+        <paper>A3</paper>
+        <cartridge>C-456P</cartridge>
+    </printer>
+    <printer numSerie="i248" type="matrix">
+        <brand>HP</brand>
+        <model>LaserJet 2430</model>
+        <weight>3.2</weight>
+        <paper>A3</paper>
+        <cartridge>C-456P</cartridge>
+    </printer>
+</printers>
