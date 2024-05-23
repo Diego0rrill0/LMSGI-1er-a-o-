@@ -1,7 +1,7 @@
 body {
-    background: purple;
+    background: blue;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+    font-size: 13px;
 }
 header{
     background: grey;
@@ -30,30 +30,29 @@ nav ul {
 }
 nav ul li {
     text-align: center;
+    padding: 10px 0;
+    
 }
 #cont1{
     display: block;
     width: 90%;
     min-height: 500px;
-    background: green;
+    background: whitesmoke;
     margin: 2px;
     padding: 3px;
 }
 #artcont{
     display: flex;
-    
-    background: blueviolet;
     margin: 2px;
     padding: 3px;
+    justify-content: center
 }
 .art{
     width: 30%;
     border: 1px solid black;
     margin: 2px;
     text-align: center;
-    
-    background: red;
-    margin: 2px;
+    margin: 10px;
     padding: 3px;
 }
 footer{
@@ -61,8 +60,11 @@ footer{
     background-color: black;
     color: white;
 }
-
-
-
-
-
+.art img {
+    max-width: 400px;
+    max-height: 300px;
+}
+nav ul li a:hover {
+    background-color: lightgray;
+    color: black;
+}
