@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gimnasio2.xslt"?>
+<actividades anio="2024">	
+	<actividad nivel="infantil" codigo="A01">				
+		<titulo>Al agua patos</titulo>
+		<fecha_inicio>2015-01-15</fecha_inicio>
+		<sesiones intensidad="suave"> 	
+			<minutos_sesion>45</minutos_sesion>
+			<sesiones_semana>3</sesiones_semana>
+		</sesiones>
+	</actividad>
+	<actividad nivel="adultos" codigo="A02">
+		<titulo>Spinning y agua</titulo>
+		<fecha_inicio>2015-01-08</fecha_inicio>
+		<sesiones intensidad="fuerte"> 			
+			<minutos_sesion>45</minutos_sesion>
+			<sesiones_semana>3</sesiones_semana>
+		</sesiones>
+	</actividad>
+	<actividad nivel="adultos" codigo="A03">
+		<titulo>Spinning en el agua</titulo>
+		<fecha_inicio>2015-01-15</fecha_inicio>
+		<sesiones intensidad="moderada"> 			
+			<minutos_sesion>60</minutos_sesion>
+			<sesiones_semana>2</sesiones_semana>
+		</sesiones>
+	</actividad>
+	<actividad nivel="infantil" codigo="A04">		
+		<titulo>Socorrismo</titulo>
+		<fecha_inicio>2015-01-15</fecha_inicio>
+		<sesiones intensidad="moderada"> 			
+			<minutos_sesion>45</minutos_sesion>
+			<sesiones_semana>2</sesiones_semana>
+		</sesiones>
+	</actividad>	
+	<actividad nivel="infantil" codigo="A05">
+		<titulo>Perfeccionamiento en el agua</titulo>
+		<fecha_inicio>2015-01-15</fecha_inicio>
+		<sesiones intensidad="moderada"> 			
+			<minutos_sesion>45</minutos_sesion>
+			<sesiones_semana>2</sesiones_semana>
+		</sesiones>
+	</actividad>	
+	<actividad nivel="adultos" codigo="A06">
+		<titulo>Aprender a nadar</titulo>
+		<fecha_inicio>2015-02-15</fecha_inicio>
+		<sesiones intensidad="suave"> 			
+			<minutos_sesion>45</minutos_sesion>
+			<sesiones_semana>2</sesiones_semana>
+		</sesiones>
+	</actividad>	
+</actividades>
